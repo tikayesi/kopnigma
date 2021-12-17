@@ -32,6 +32,12 @@ dependencies:
   sqflite: ^2.0.0+3
   path_provider: ^2.0.2
   dio: ^4.0.0
+  get_it: ^7.2.0
+  provider: ^5.0.0
+  device_info_plus: ^2.1.0
+  shared_preferences: ^2.0.6
+  open_mail_app: ^0.3.0
+  url_launcher:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -72,6 +78,13 @@ flutter:
     - assets/images/home.png
     - assets/images/loan.png
     - assets/images/saving.png
+    - assets/images/steve.jpg
+    - assets/images/bill.jpg
+    - assets/images/exit_confirmation_2.png
+    - assets/images/faq.png
+    - assets/images/arrow-left-thick.png
+    - assets/images/confirmation.png
+
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

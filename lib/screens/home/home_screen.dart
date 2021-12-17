@@ -40,7 +40,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                      IconButton(
                                         icon: const Icon(Icons.credit_card),
                                         tooltip: 'Transaction',
-                                        onPressed: () {},
+                                        onPressed: () {
+                                          Navigator.pushNamed(context, '/trx-screen');
+                                        },
                                       ),
                                      Text('Transaction')
                                    ],
@@ -63,7 +65,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                     IconButton(
                                       icon: const Icon(Icons.contact_page),
                                       tooltip: 'Layanan',
-                                      onPressed: () {},
+                                      onPressed: () {
+                                        Navigator.pushNamed(context, '/service-screen');
+                                      },
                                     ),
                                     Text('Layanan')
                                   ],
