@@ -6,7 +6,7 @@ class ApiHelperImpl implements ApiHelper{
   ApiHelperImpl._privateConstructor();
 
   static ApiHelperImpl INSTANCE = ApiHelperImpl._privateConstructor();
-  final _dio = Dio(BaseOptions(baseUrl: 'http://10.10.50.70:3008'));
+  final _dio = Dio(BaseOptions(baseUrl: 'http://localhost:3008'));
 
   Future<ApiResponse>  postData(String path, Map<String, dynamic> data) async{
     try {

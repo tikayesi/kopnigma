@@ -38,6 +38,7 @@ dependencies:
   shared_preferences: ^2.0.6
   open_mail_app: ^0.3.0
   url_launcher:
+  intl: ^0.17.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -78,12 +79,12 @@ flutter:
     - assets/images/home.png
     - assets/images/loan.png
     - assets/images/saving.png
-    - assets/images/steve.jpg
     - assets/images/bill.jpg
     - assets/images/exit_confirmation_2.png
     - assets/images/faq.png
     - assets/images/arrow-left-thick.png
     - assets/images/confirmation.png
+    - assets/images/success.png
 
 
   #   - images/a_dot_burr.jpeg

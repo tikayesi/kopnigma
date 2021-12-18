@@ -5,6 +5,8 @@ import 'package:koperasi/screens/contact_request/contact_request_screen.dart';
 import 'package:koperasi/screens/home/change_profile/change_profile_screen.dart';
 import 'package:koperasi/screens/home/home_screen.dart';
 import 'package:koperasi/screens/home/service/service_screen.dart';
+import 'package:koperasi/screens/home/transaction/loan/loan_screen.dart';
+import 'package:koperasi/screens/home/transaction/saving/saving_screen.dart';
 import 'package:koperasi/screens/home/transaction/transaction_screen.dart';
 import 'package:koperasi/screens/welcome/onboarding_screen.dart';
 
@@ -37,7 +39,9 @@ class MyApp extends StatelessWidget {
         '/profile': (context) => ChangeProfileScreen(),
         '/contact-request': (context) => ContactRequestScreen(),
         '/trx-screen': (context) => TransactionScreen(),
-        '/service-screen' : (context) => ServiceScreen()
+        '/service-screen' : (context) => ServiceScreen(),
+        '/saving' : (context) => SavingScreen(),
+        '/loan' : (context) => LoanScreen()
       },
     );
   }

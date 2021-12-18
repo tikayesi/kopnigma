@@ -23,7 +23,7 @@ class _KopNigmaAppState extends State<KopNigmaApp> {
         body: _pages[_currentPage],
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: _currentPage,
-          items: [
+          items: const [
             BottomNavigationBarItem(
                 label: 'Beranda',
                 icon: Icon(Icons.home)

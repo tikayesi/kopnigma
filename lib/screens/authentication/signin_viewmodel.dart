@@ -1,7 +1,7 @@
 import 'package:koperasi/data/api/api_helper.dart';
 import 'package:koperasi/data/api/api_helper_impl.dart';
 import 'package:koperasi/data/models/auth_data.dart';
-import 'package:koperasi/data/models/user_info.dart';
+import 'package:koperasi/data/models/user_profile.dart';
 import 'package:koperasi/data/repository/auth_repo.dart';
 import 'package:koperasi/data/repository/auth_repo_impl.dart';
 import 'package:koperasi/navigation/navigator_service.dart';
