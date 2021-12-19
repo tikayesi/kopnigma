@@ -41,7 +41,7 @@ class _TransactionScreenState extends State<TransactionScreen> {
                                   decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(10),
-                                    image: DecorationImage(
+                                    image: const DecorationImage(
                                       image: AssetImage(
                                           'assets/images/saving.png'),
                                       fit: BoxFit.fill,
@@ -49,7 +49,9 @@ class _TransactionScreenState extends State<TransactionScreen> {
                                   ),
                                 ),
                               ),
-                              Text('Saving')
+                              TextButton(onPressed: (){
+                                Navigator.pushNamed(context, '/saving-request');
+                              }, child: Text('Saving'))
                             ],
                           ),
                           Column(
@@ -60,7 +62,7 @@ class _TransactionScreenState extends State<TransactionScreen> {
                                   decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(10),
-                                    image: DecorationImage(
+                                    image: const DecorationImage(
                                       image: AssetImage(
                                           'assets/images/loan.png'),
                                       fit: BoxFit.fill,
@@ -68,7 +70,7 @@ class _TransactionScreenState extends State<TransactionScreen> {
                                   ),
                                 ),
                               ),
-                              Text('Loan')
+                              TextButton(onPressed: (){}, child: Text('Loan'))
                             ],
                           )
                         ],

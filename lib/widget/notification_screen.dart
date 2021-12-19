@@ -30,8 +30,8 @@ class NotificationScreen extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                      width: 224,
-                      height: 192,
+                      width: 128,
+                      height: 128,
                       margin: const EdgeInsets.fromLTRB(6, 32, 0, 32),
                       child: Image.asset(
                           'assets/images/koperasi_indonesia-logo.png')),

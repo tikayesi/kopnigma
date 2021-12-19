@@ -102,7 +102,6 @@ class _ChangeProfileScreenState extends State<ChangeProfileScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // _setUpFormData(context);
     return WillPopScope(
       onWillPop: () async {
         return await willPopNotification(
@@ -148,7 +147,7 @@ class _ChangeProfileScreenState extends State<ChangeProfileScreen> {
             Navigator.pop(context, 'DONE');
           },
           child: NotificationScreen(
-            title: 'Data Kamu berhasil diubah !!!',
+            title: 'Your Data successfully change !!!',
             checkImage: 'success.png',
           ),
         );

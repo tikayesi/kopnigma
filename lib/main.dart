@@ -40,8 +40,8 @@ class MyApp extends StatelessWidget {
         '/contact-request': (context) => ContactRequestScreen(),
         '/trx-screen': (context) => TransactionScreen(),
         '/service-screen' : (context) => ServiceScreen(),
-        '/saving' : (context) => SavingScreen(),
-        '/loan' : (context) => LoanScreen()
+        '/saving-request' : (context) => SavingScreen(),
+        '/loan-request' : (context) => LoanScreen()
       },
     );
   }
